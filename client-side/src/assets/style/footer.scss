@@ -1,0 +1,123 @@
+.footer {
+  width: 100%;
+  box-shadow: 0 0 5px #eee;
+  border-top: 2px solid #eee;
+
+  .top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 2rem;
+    flex-wrap: wrap;
+    border-bottom: 2px solid #eee;
+
+    .part1 {
+      padding: 0.5rem;
+      width: 210px;
+
+      .heading {
+        font-size: 1.1rem;
+        padding: 0.5rem 0;
+        color: #201e1e;
+        cursor: pointer;
+      }
+
+      ul {
+        list-style: none;
+
+        li {
+          padding: 0.5rem 0;
+
+          a {
+            text-decoration: none;
+            color: #767474;
+            font-size: 0.9rem;
+
+            &:hover {
+              color: #201e1e;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2rem;
+
+    .social__icons {
+      list-style: none;
+      display: flex;
+      margin: 0.5rem 0;
+
+      li {
+        width: 30px;
+        background-color: #333;
+        height: 30px;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 0.5rem;
+        border: 2px solid transparent;
+        cursor: pointer;
+
+        a {
+          text-decoration: none;
+          color: #fff;
+          font-size: 0.9rem;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
+        &:hover {
+          border-color: #939393;
+        }
+      }
+    }
+
+    .condition {
+      list-style: none;
+      display: flex;
+      margin: 1rem 0;
+
+      li {
+        a {
+          text-decoration: none;
+          color: #302e2e;
+          padding: 0 1rem;
+          border-right: 2px solid #606060;
+        }
+      }
+      .lastItem {
+        a {
+          border-right: none;
+          // font-size: 0.9rem;
+        }
+      }
+    }
+
+    .copyrightMessage {
+      p {
+        font-size: 0.9rem;
+        color: #595959;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .footer .bottom .condition {
+    flex-direction: column;
+  }
+  .footer .bottom .condition li a{
+    padding: 0;
+    border-right: none;
+  }
+}
