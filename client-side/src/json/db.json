@@ -1,0 +1,142 @@
+{
+  "Products": {
+    "drink": [
+      {
+        "category": "Hot Coffees",
+        "name": "drink",
+        "product": [
+          {
+            "heading": "Americanos",
+            "image": "./images/products/img1.jpg",
+            "name": "Caffè Americano"
+          },
+          {
+            "image": "./images/products/img2.jpg",
+            "name": "Veranda Blend®"
+          },
+          {
+            "image": "./images/products/img3.jpg",
+            "name": "Caffè Misto"
+          },
+          {
+            "image": "./images/products/img4.jpg",
+            "name": "Featured Starbucks® Dark Roast Coffee"
+          }
+        ]
+      },
+      {
+        "category": "Hot Teas",
+        "product": [
+          {
+            "heading": "Chai Teas",
+            "image": "./images/products/img5.jpg",
+            "name": "Chai Tea Latte"
+          },
+          {
+            "image": "./images/products/img6.jpg",
+            "name": "Chai Tea"
+          },
+          {
+            "image": "./images/products/img7.jpg",
+            "name": "Royal English Breakfast Tea Latte"
+          },
+          {
+            "image": "./images/products/img5.jpg",
+            "name": "Matcha Tea Latte"
+          }
+        ]
+      },
+      {
+        "category": "Hot Drinks",
+        "product": [
+          {
+            "heading": "Hot Chocolates",
+            "image": "./images/products/img8.jpg",
+            "name": "Hot Chocolate"
+          },
+          {
+            "image": "./images/products/img9.jpg",
+            "name": "White Hot Chocolate"
+          },
+          {
+            "image": "./images/products/img10.jpg",
+            "name": "Caramel Apple Spice"
+          },
+          {
+            "image": "./images/products/img11.jpg",
+            "name": "Pumpkin Spice Crème"
+          }
+        ]
+      },
+      {
+        "category": "Frappuccino® Blended Beverages",
+        "product": [
+          {
+            "heading": "Coffee Frappuccino®",
+            "image": "./images/products/img12.jpg",
+            "name": "Pumpkin Spice Frappuccino® Blended Beverage"
+          },
+          {
+            "image": "./images/products/img13.jpg",
+            "name": "Apple Crisp Oatmilk Frappuccino® Blended Beverage"
+          },
+          {
+            "image": "./images/products/img14.jpg",
+            "name": "Mocha Cookie Crumble Frappuccino®"
+          },
+          {
+            "image": "./images/products/img15.jpg",
+            "name": "Caramel Ribbon Crunch Frappuccino® Blended Beverage"
+          }
+        ]
+      }
+    ],
+    "Food": [
+      {
+        "category": "Hot Breakfast",
+        "name": "Food",
+        "product": [
+          {
+            "heading": "Breakfast Sandwiches & Wraps",
+            "image": "./images/products/img16.jpg",
+            "name": "Bacon, Sausage & Egg Wrap"
+          },
+          {
+            "image": "./images/products/img17.jpg",
+            "name": "Impossible™ Breakfast Sandwich"
+          },
+          {
+            "image": "./images/products/img18.jpg",
+            "name": "Bacon, Gouda & Egg Sandwich"
+          },
+          {
+            "image": "./images/products/img19.jpg",
+            "name": "Double-Smoked Bacon, Cheddar & Egg Sandwich"
+          }
+        ]
+      },
+      {
+        "category": "Bakery",
+        "product": [
+          {
+            "heading": "Bagels",
+            "image": "./images/products/img20.jpg",
+            "name": "Plain Bagel"
+          },
+          {
+            "image": "./images/products/img21.jpg",
+            "name": "Cinnamon Raisin Bagel"
+          },
+          {
+            "image": "./images/products/img22.jpg",
+            "name": "Everything Bagel"
+          },
+          {
+            "image": "./images/products/img23.jpg",
+            "name": "Avocado Spread"
+          }
+        ]
+      }
+    ]
+  }
+}
