@@ -1,0 +1,147 @@
+.sign__in {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 0;
+
+  .heading {
+    padding: 1rem 0;
+
+    h1 {
+      font-size: 1.5rem;
+      color: #333;
+    }
+  }
+  .box1 {
+    margin: 1rem 0;
+    padding: 1.5rem;
+    width: 500px;
+    /* background: #333; */
+    box-shadow: 0 0 10px #bbbaba82;
+    border-radius: 20px;
+
+    p {
+      font-size: 1rem;
+      color: #333;
+      padding: 1rem 0;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      input {
+        width: 100%;
+        height: 50px;
+        padding: 0.5rem 1rem;
+        border-radius: 10px;
+        font-size: 1rem;
+        color: #000;
+        margin: 1rem 0;
+        border: 2px solid #d5d5d5;
+        outline: none;
+
+        &:focus,
+        &:hover {
+          border-color: #7fb1a0;
+        }
+      }
+    }
+
+    .checked {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 1rem 0;
+
+      input {
+        width: 20px;
+        height: 20px;
+        background-color: #333;
+      }
+
+      p {
+        padding-left: 0.5rem;
+        font-size: 1rem;
+        color: #211f1f;
+      }
+    }
+
+    .option {
+      padding: 1rem 0;
+
+      p {
+        color: #005638;
+        font-weight: 700;
+        text-decoration: underline;
+        padding: 0.3rem;
+        cursor: pointer;
+      }
+    }
+
+    .button1 {
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+      button {
+        width: 100px;
+        height: 40px;
+        border-radius: 50px;
+        font-size: 1rem;
+        border: none;
+        background: #039361;
+        color: #fff;
+        font-weight: 600;
+        margin: 1rem 0;
+        cursor: pointer;
+      }
+    }
+  }
+  .messageBox {
+    width: 500px;
+    margin: 2rem;
+    padding: 1.5rem;
+    border-radius: 20px;
+    background-color: #00935d0d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h4 {
+      color: #006341;
+      padding: 1rem;
+    }
+    p {
+      font-size: 1rem;
+      text-align: center;
+      padding: 0.9rem;
+      color: #000000cf;
+    }
+    button {
+      width: 100px;
+      height: 40px;
+      font-size: 1rem;
+      border-radius: 50px;
+      background: transparent;
+      border: 2px solid #01583a;
+      color: #01583a;
+      margin: 1rem 0;
+      cursor: pointer;
+    }
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .sign__in .box1 {
+    width: 95%;
+  }
+  .sign__in .messageBox {
+    width: 95%;
+  }
+}
